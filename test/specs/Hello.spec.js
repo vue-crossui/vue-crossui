@@ -1,5 +1,11 @@
 import Vue from 'vue'
-
+import CrossUI from '../../src/index.js'
+Vue.use(CrossUI, {
+  // type: 'bootstrap',
+  // type: 'materialize',
+  type: 'bulma',
+  fontAwesome: true,
+})
 import { createVM } from '../helpers/utils.js'
 
 

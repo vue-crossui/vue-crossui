@@ -1,5 +1,8 @@
 // Polyfill fn.bind() for PhantomJS
 import bind from 'function-bind'
+
+
+
 /* eslint-disable no-extend-native */
 Function.prototype.bind = bind
 

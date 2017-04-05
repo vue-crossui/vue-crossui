@@ -1,4 +1,4 @@
-# VueCrossui
+# VueCrossUI
 
 [![npm](https://img.shields.io/npm/v/vue-crossui.svg)](https://www.npmjs.com/package/vue-crossui) [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
@@ -16,11 +16,11 @@ npm install --save vue-crossui
 
 ```js
 import Vue from 'vue'
-import VueCrossui from 'vue-crossui'
+import VueCrossUI from 'vue-crossui'
 // You need a specific loader for CSS files like https://github.com/webpack/css-loader
 import 'vue-crossui/dist/vue-crossui.css'
 
-Vue.use(VueCrossui)
+Vue.use(VueCrossUI)
 ```
 
 ### Browser
